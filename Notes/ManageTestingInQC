@@ -1,0 +1,63 @@
+------	Release Management Release Specification In QC ------	
+	Create Release folder
+		Create Release
+			Adding cycles
+			Master plan tab will display the timeline for the release with its cycle information
+			The Status attachment displays the progress of the release
+
+-----Requirements in QC------	
+Creation and Organisation of the Requirements Folder Structure
+		
+	Create new requirement folder
+		Adding Requirements
+	Creating Requirements : Name, Priority and Alt ID fields
+				Linking a Requirement to an External Source - Document SSD
+				Maintenance Defects as Requirement 
+				Refactoring items as Requirement 
+				Performance
+				Features
+					Feature A
+					Feature B
+				Installation & Setup
+				ProductSupported
+	Link the requirement to a cycle and release
+	 	You can associate a requirement with more than one release.
+
+------Test Repository  & Testcase Planning in QC -----
+Choose “Subject” as your home folder and create a subfolder 	
+	create a new test
+		Linking Test Cases to Requirements	
+Creation and Organisation of the Test Repository Folder Structure
+	Installation tests
+	Upgrade tests
+	New features
+		Feature A
+		Feature B	
+
+	Test Case (ID, Name, Priority, Alt ID, Description), 
+	Mapping Test Cases to a Requirement or Mapping Requirement(s) to Test case
+
+-----Testc Execution in QC ------
+Regression Test Repository
+	Regression Test - 1.3 Series
+	Regression Test - 1.4 Series 
+Create the folders 
+	create a new test set
+		Select Tests
+Test Planning
+	Creating Cycles - These cycles will match the mandatory test folders 
+	Assigning Test Cases in the Phase
+	Multiple Phase for multiple environnment
+
+Test Execution -
+	updating of the results of those failed tests should be carried out in the same phase. Do not create a new phase for retesting. 
+
+----Defect Tracking Defects in QC----
+Defect Tracking
+	New Defect
+	Linking an Existing JIRA/TFS issue to a Test Execution
+	Linking Defect to Test Case
+
+---- Metrics  & Dashboards----
+	Test execution by cycle
+	
